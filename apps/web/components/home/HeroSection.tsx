@@ -38,7 +38,13 @@ export default function HeroSection() {
         pointerEvents: "none",
       }} />
 
-      <div style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 24px", position: "relative" }}>
+      <style>{`
+        @media(max-width:768px){
+          .lb-hero-inner{padding:48px 20px 60px!important;}
+          .lb-hero-stats{gap:20px!important;margin-top:36px!important;}
+        }
+      `}</style>
+      <div style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 24px", position: "relative" }} className="lb-hero-inner">
         <div style={{ maxWidth: 760 }}>
           {/* Eyebrow */}
           <div style={{
@@ -139,7 +145,7 @@ export default function HeroSection() {
           </div>
 
           {/* Stats */}
-          <div style={{ display: "flex", gap: 40, marginTop: 56, flexWrap: "wrap" }}>
+          <div style={{ display: "flex", gap: 40, marginTop: 56, flexWrap: "wrap" }} className="lb-hero-stats">
             {[
               { value: "2,400+", label: t("students") },
               { value: "4.9★", label: t("rating") },

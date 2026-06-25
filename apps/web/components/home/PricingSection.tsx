@@ -35,7 +35,7 @@ export default function PricingSection() {
           <p style={{ color: "var(--text-secondary)", fontSize: 16 }}>{t("subtitle")}</p>
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 260px), 1fr))", gap: 24 }}>
           {PLANS.map(plan => (
             <div key={plan.name} style={{
               background: plan.popular ? "var(--bg-card)" : "var(--bg-surface)",

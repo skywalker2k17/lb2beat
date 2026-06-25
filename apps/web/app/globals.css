@@ -94,3 +94,15 @@ h1, h2, h3, h4, h5, h6 {
   outline: 2px solid var(--amber);
   outline-offset: 3px;
 }
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  section {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+  }
+  .lb-footer-grid {
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+  }
+}

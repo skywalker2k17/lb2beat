@@ -46,7 +46,7 @@ export default function CoursesSection() {
         </div>
 
         {/* Course grid */}
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: 24 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 300px), 1fr))", gap: 24 }}>
           {filtered.map(course => (
             <div key={course.id} style={{
               background: "var(--bg-card)", border: "1px solid var(--border)",
@@ -77,7 +77,7 @@ export default function CoursesSection() {
                 <h3 style={{ fontFamily: "var(--font-display)", fontSize: 18, fontWeight: 700, marginBottom: 8 }}>{course.title}</h3>
                 <p style={{ color: "var(--text-secondary)", fontSize: 14, lineHeight: 1.6, marginBottom: 16 }}>{course.description}</p>
 
-                <div style={{ display: "flex", gap: 16, marginBottom: 20 }}>
+                <div style={{ display: "flex", gap: 12, marginBottom: 20, flexWrap: "wrap", rowGap: 6 }}>
                   {[
                     { icon: "📚", val: `${course.lessons} ${t("lessons")}` },
                     { icon: "⏱", val: `${course.hours} ${t("hours")}` },

@@ -19,7 +19,7 @@ export default function TestimonialsSection() {
         <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px, 4vw, 48px)", fontWeight: 800, textAlign: "center", marginBottom: 64, letterSpacing: "-1px" }}>
           {t("title")}
         </h2>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: 20 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 280px), 1fr))", gap: 20 }}>
           {TESTIMONIALS.map((item, i) => (
             <div key={i} style={{
               background: "var(--bg-card)", border: "1px solid var(--border)",
