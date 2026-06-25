@@ -42,6 +42,8 @@ export default function HeroSection() {
         @media(max-width:768px){
           .lb-hero-inner{padding:48px 20px 60px!important;}
           .lb-hero-stats{gap:20px!important;margin-top:36px!important;}
+          .lb-hero-ctas{flex-direction:column!important;}
+          .lb-hero-ctas a{width:100%!important;text-align:center!important;box-sizing:border-box!important;}
         }
       `}</style>
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 24px", position: "relative" }} className="lb-hero-inner">
@@ -108,7 +110,7 @@ export default function HeroSection() {
           </div>
 
           {/* CTAs */}
-          <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
+          <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }} className="lb-hero-ctas">
             <Link href={`/${locale}/register`} style={{
               background: "var(--amber)", color: "#0a0a0e",
               padding: "16px 32px", borderRadius: 10,
