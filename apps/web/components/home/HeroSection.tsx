@@ -69,15 +69,32 @@ export default function HeroSection() {
           </h1>
 
           {/* Subheadline */}
-          <p style={{
-            fontSize: "clamp(16px, 2.5vw, 20px)",
-            color: "var(--text-secondary)",
-            lineHeight: 1.6,
+          <div style={{
+            display: "inline-flex", alignItems: "center", gap: 12,
             marginBottom: 40,
-            maxWidth: 560,
           }}>
-            {t("subheadline")}
-          </p>
+            <span style={{
+              display: "flex", alignItems: "center", justifyContent: "center",
+              width: 24, height: 24, borderRadius: "50%",
+              background: "rgba(245,158,11,0.15)",
+              border: "1px solid rgba(245,158,11,0.35)",
+              flexShrink: 0,
+            }}>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </span>
+            <p style={{
+              fontSize: "clamp(17px, 2.2vw, 21px)",
+              color: "var(--text-primary)",
+              lineHeight: 1.5,
+              fontWeight: 400,
+              fontStyle: "italic",
+              margin: 0,
+            }}>
+              {t("subheadline")}
+            </p>
+          </div>
 
           {/* Waveform — signature element */}
           <div style={{ marginBottom: 40 }}>
