@@ -15,7 +15,7 @@ export default function FeaturesSection() {
   return (
     <section style={{ padding: "100px 24px", background: "var(--bg-surface)" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
-        <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px, 4vw, 48px)", fontWeight: 800, textAlign: "center", marginBottom: 64, letterSpacing: "-1px" }}>
+        <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px, 4vw, 48px)", fontWeight: 700, textAlign: "center", marginBottom: 64, letterSpacing: "-0.3px" }}>
           {t("title")}
         </h2>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 24 }}>
@@ -31,7 +31,7 @@ export default function FeaturesSection() {
               <div style={{ width: 48, height: 48, borderRadius: 12, background: "var(--amber-glow)", border: "1px solid var(--border-strong)", display: "flex", alignItems: "center", justifyContent: "center", color: "var(--amber)", marginBottom: 20 }}>
                 {icons[i]}
               </div>
-              <h3 style={{ fontFamily: "var(--font-display)", fontSize: 18, fontWeight: 700, marginBottom: 10, color: "var(--text-primary)" }}>{item.title}</h3>
+              <h3 style={{ fontFamily: "var(--font-display)", fontSize: 18, fontWeight: 600, marginBottom: 10, color: "var(--text-primary)" }}>{item.title}</h3>
               <p style={{ color: "var(--text-secondary)", fontSize: 15, lineHeight: 1.7 }}>{item.desc}</p>
             </div>
           ))}

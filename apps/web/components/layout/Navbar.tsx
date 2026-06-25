@@ -28,7 +28,7 @@ export default function Navbar() {
         height: 68,
       }}>
         <Link href={`/${locale}`} style={{ textDecoration: "none" }}>
-          <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 22, color: "var(--amber)", letterSpacing: "-0.5px" }}>
+          <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 22, color: "var(--amber)", letterSpacing: "-0.5px" }}>
             LB2BEAT
           </span>
         </Link>

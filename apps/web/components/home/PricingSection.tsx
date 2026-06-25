@@ -31,7 +31,7 @@ export default function PricingSection() {
     <section style={{ padding: "100px 24px", background: "var(--bg-base)" }}>
       <div style={{ maxWidth: 1100, margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: 64 }}>
-          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px, 4vw, 48px)", fontWeight: 800, letterSpacing: "-1px", marginBottom: 12 }}>{t("title")}</h2>
+          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px, 4vw, 48px)", fontWeight: 700, letterSpacing: "-0.3px", marginBottom: 12 }}>{t("title")}</h2>
           <p style={{ color: "var(--text-secondary)", fontSize: 16 }}>{t("subtitle")}</p>
         </div>
 
@@ -56,10 +56,10 @@ export default function PricingSection() {
                 </div>
               )}
 
-              <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 22, marginBottom: 8 }}>{plan.name}</h3>
+              <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 22, marginBottom: 8 }}>{plan.name}</h3>
 
               <div style={{ marginBottom: 24 }}>
-                <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 40, color: "var(--amber)" }}>${plan.price.lifetime}</span>
+                <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 40, color: "var(--amber)" }}>${plan.price.lifetime}</span>
                 <span style={{ color: "var(--text-muted)", fontSize: 14, marginLeft: 6 }}>/ {t("lifetime")}</span>
               </div>
 

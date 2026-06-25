@@ -24,7 +24,7 @@ export default function CoursesSection() {
     <section style={{ padding: "100px 24px", background: "var(--bg-base)" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: 48 }}>
-          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px, 4vw, 48px)", fontWeight: 800, letterSpacing: "-1px", marginBottom: 12 }}>{t("title")}</h2>
+          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px, 4vw, 48px)", fontWeight: 700, letterSpacing: "-0.3px", marginBottom: 12 }}>{t("title")}</h2>
           <p style={{ color: "var(--text-secondary)", fontSize: 16 }}>{t("subtitle")}</p>
         </div>
 
@@ -88,7 +88,7 @@ export default function CoursesSection() {
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                  <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 22, color: "var(--amber)" }}>${course.price}</span>
+                  <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 22, color: "var(--amber)" }}>${course.price}</span>
                   <Link href={`/${locale}/courses/${course.id}`} style={{
                     background: "var(--amber)", color: "#0a0a0e",
                     padding: "9px 20px", borderRadius: 8,

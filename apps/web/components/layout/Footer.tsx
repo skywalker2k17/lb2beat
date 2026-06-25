@@ -11,7 +11,7 @@ export default function Footer() {
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
         <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr 1fr", gap: 48, marginBottom: 48 }} className="lb-footer-grid">
           <div>
-            <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 24, color: "var(--amber)" }}>LB2BEAT</span>
+            <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 24, color: "var(--amber)" }}>LB2BEAT</span>
             <p style={{ color: "var(--text-muted)", fontSize: 14, marginTop: 12, lineHeight: 1.7, maxWidth: 300 }}>{t("tagline")}</p>
             <div style={{ display: "flex", gap: 12, marginTop: 20 }}>
               {/* Social icons — skeleton placeholders */}

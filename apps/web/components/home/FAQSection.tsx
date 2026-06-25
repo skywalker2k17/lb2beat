@@ -18,7 +18,7 @@ export default function FAQSection() {
   return (
     <section style={{ padding: "100px 24px", background: "var(--bg-surface)" }}>
       <div style={{ maxWidth: 780, margin: "0 auto" }}>
-        <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px, 4vw, 48px)", fontWeight: 800, textAlign: "center", marginBottom: 64, letterSpacing: "-1px" }}>
+        <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px, 4vw, 48px)", fontWeight: 700, textAlign: "center", marginBottom: 64, letterSpacing: "-0.3px" }}>
           {t("title")}
         </h2>
         <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>

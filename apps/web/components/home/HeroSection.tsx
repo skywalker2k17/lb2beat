@@ -62,9 +62,9 @@ export default function HeroSection() {
           <h1 style={{
             fontFamily: "var(--font-display)",
             fontSize: "clamp(40px, 7vw, 80px)",
-            fontWeight: 800,
+            fontWeight: 700,
             lineHeight: 1.08,
-            letterSpacing: "-1px",
+            letterSpacing: "-0.3px",
             marginBottom: 24,
           }}>
             {t("headline").split(" ").map((word, i) => (
@@ -152,7 +152,7 @@ export default function HeroSection() {
               { value: "12", label: t("courses_count") },
             ].map(({ value, label }) => (
               <div key={label}>
-                <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 28, color: "var(--amber)", letterSpacing: "-1px" }}>{value}</div>
+                <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 28, color: "var(--amber)", letterSpacing: "-1px" }}>{value}</div>
                 <div style={{ fontSize: 14, color: "var(--text-muted)", marginTop: 2 }}>{label}</div>
               </div>
             ))}
