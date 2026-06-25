@@ -27,7 +27,7 @@ export default function HeroSection() {
       minHeight: "100vh", paddingTop: 68,
       display: "flex", alignItems: "center",
       position: "relative", overflow: "hidden",
-    }}>
+    }} className="lb-hero-section">
       {/* Background radial glow */}
       <div style={{
         position: "absolute", top: "30%", left: "50%",
@@ -40,6 +40,7 @@ export default function HeroSection() {
 
       <style>{`
         @media(max-width:768px){
+          .lb-hero-section{padding-top:106px!important;}
           .lb-hero-inner{padding:48px 20px 60px!important;}
           .lb-hero-stats{gap:20px!important;margin-top:36px!important;}
           .lb-hero-ctas{flex-direction:column!important;}
