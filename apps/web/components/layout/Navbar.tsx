@@ -72,9 +72,6 @@ export default function Navbar() {
                 {t(key)}
               </Link>
             ))}
-            <Link href={`/${locale}/register`} onClick={() => setOpen(false)} style={{ background: "var(--amber)", color: "#0a0a0e", padding: "12px 20px", borderRadius: 8, fontSize: 15, fontWeight: 700, textDecoration: "none", textAlign: "center" }}>
-              {t("join")}
-            </Link>
           </div>
         )}
 
