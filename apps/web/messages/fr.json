@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "courses": "Cours",
+    "about": "À propos",
+    "pricing": "Tarifs",
+    "login": "Connexion",
+    "join": "Commencer",
+    "dashboard": "Tableau de Bord"
+  },
+  "hero": {
+    "eyebrow": "La plateforme N°1 de Beat Making en Haïti",
+    "headline": "Apprenez à Créer des Beats qui Font de l'Argent",
+    "subheadline": "Même si vous n'avez aucune expérience en production musicale",
+    "cta_primary": "Commencer Gratuitement",
+    "cta_secondary": "Voir les Cours",
+    "students": "Élèves Actifs",
+    "rating": "Note Moyenne",
+    "courses_count": "Cours Disponibles"
+  },
+  "features": {
+    "title": "Pourquoi LB2BEAT?",
+    "items": [
+      {
+        "title": "Apprenez à votre rythme",
+        "desc": "Des cours pré-enregistrés accessibles à tout moment, depuis n'importe où."
+      },
+      {
+        "title": "Instructeurs expérimentés",
+        "desc": "Apprenez directement auprès de producteurs avec des années d'expérience."
+      },
+      {
+        "title": "Certificat officiel",
+        "desc": "Recevez un certificat de complétion reconnu à la fin de chaque cours."
+      },
+      {
+        "title": "Communauté active",
+        "desc": "Rejoignez une communauté d'élèves qui progressent ensemble."
+      }
+    ]
+  },
+  "courses": {
+    "title": "Cours les plus populaires",
+    "subtitle": "Choisissez un cours pour démarrer votre parcours",
+    "all": "Tous les cours",
+    "beginner": "Débutant",
+    "intermediate": "Intermédiaire",
+    "advanced": "Avancé",
+    "enroll": "S'inscrire",
+    "preview": "Aperçu",
+    "lessons": "leçons",
+    "hours": "heures",
+    "students": "élèves"
+  },
+  "testimonials": {
+    "title": "Ce que disent nos élèves"
+  },
+  "pricing": {
+    "title": "Choisissez Votre Plan",
+    "subtitle": "Accès immédiat, sans abonnement obligatoire",
+    "monthly": "Mensuel",
+    "lifetime": "À vie",
+    "popular": "Le plus populaire",
+    "cta": "Commencer",
+    "features_title": "Ce qui est inclus:"
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées"
+  },
+  "footer": {
+    "tagline": "La plateforme beat making pour la prochaine génération.",
+    "courses": "Cours",
+    "company": "Entreprise",
+    "about": "À propos",
+    "contact": "Contact",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Confidentialité",
+    "rights": "Tous droits réservés."
+  },
+  "dashboard": {
+    "welcome": "Bienvenue,",
+    "my_courses": "Mes Cours",
+    "progress": "Progression",
+    "continue": "Continuer",
+    "completed": "Complété",
+    "certificate": "Certificat",
+    "hours_watched": "Heures Visionnées"
+  }
+}

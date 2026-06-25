@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "courses": "Kou yo",
+    "about": "Kiyès nou ye",
+    "pricing": "Pri",
+    "login": "Konekte",
+    "join": "Kòmanse Kounya",
+    "dashboard": "Tableau de Bord"
+  },
+  "hero": {
+    "eyebrow": "Platfòm Nimewo 1 pou Beat Making an Ayiti",
+    "headline": "Aprann Fè Bèl Beat Ki Fè Lajan",
+    "subheadline": "Menm si ou pa gen okenn eksperyans nan pwodiksyon mizik",
+    "cta_primary": "Kòmanse Gratis",
+    "cta_secondary": "Gade Kou yo",
+    "students": "Elèv Aktif",
+    "rating": "Nòt Mwayen",
+    "courses_count": "Kou Disponib"
+  },
+  "features": {
+    "title": "Poukisa LB2BEAT?",
+    "items": [
+      {
+        "title": "Aprann nan pwòp vitès ou",
+        "desc": "Kou pre-anrejistre ou ka gade nenpòt ki lè, nenpòt ki kote."
+      },
+      {
+        "title": "Pwofesè ekspèrimante",
+        "desc": "Aprann dirèkteman ak pwodiktè ki gen plizyè ane eksperyans."
+      },
+      {
+        "title": "Sètifika Ofisyèl",
+        "desc": "Resevwa sètifika rekonpans lè ou fin konplete kou ou."
+      },
+      {
+        "title": "Kominote aktiv",
+        "desc": "Jwenn aksè nan yon gwoup elèv ki ap grandi ansanm."
+      }
+    ]
+  },
+  "courses": {
+    "title": "Kou yo ki pi popilè",
+    "subtitle": "Chwazi yon kou pou kòmanse vwayaj ou",
+    "all": "Tout Kou",
+    "beginner": "Debitan",
+    "intermediate": "Entèmedyè",
+    "advanced": "Avanse",
+    "enroll": "Enskri Kounya",
+    "preview": "Gade Apèsi",
+    "lessons": "leson",
+    "hours": "èdtan",
+    "students": "elèv"
+  },
+  "testimonials": {
+    "title": "Sa elèv nou yo ap di"
+  },
+  "pricing": {
+    "title": "Chwazi Wout Ou",
+    "subtitle": "Aksè imedya, san abònman obligatwa",
+    "monthly": "Chak Mwa",
+    "lifetime": "Pou Lavi",
+    "popular": "Pi Popilè",
+    "cta": "Kòmanse Kounya",
+    "features_title": "Sa ki enkli:"
+  },
+  "faq": {
+    "title": "Kesyon Moun Poze Souvan"
+  },
+  "footer": {
+    "tagline": "Platfòm beat making pou jenerasyon k ap vini.",
+    "courses": "Kou yo",
+    "company": "Konpayi",
+    "about": "Kiyès nou ye",
+    "contact": "Kontakte nou",
+    "terms": "Kondisyon itilizasyon",
+    "privacy": "Konfidansyalite",
+    "rights": "Tout dwa rezève."
+  },
+  "dashboard": {
+    "welcome": "Byenveni,",
+    "my_courses": "Kou Mwen yo",
+    "progress": "Pwogre",
+    "continue": "Kontinye",
+    "completed": "Konplete",
+    "certificate": "Sètifika",
+    "hours_watched": "Èdtan Gade"
+  }
+}

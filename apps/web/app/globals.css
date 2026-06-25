@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap");
+
+:root {
+  /* LB2BEAT Dark Music Studio palette — amber/gold on near-black */
+  --bg-base: #0a0a0e;
+  --bg-surface: #111118;
+  --bg-card: #16161f;
+  --bg-card-hover: #1c1c28;
+
+  --amber: #f59e0b;
+  --amber-light: #fbbf24;
+  --amber-dim: #d97706;
+  --amber-glow: rgba(245, 158, 11, 0.15);
+
+  --text-primary: #f5f0e8;
+  --text-secondary: #c4bbb0;
+  --text-muted: #8c8375;
+
+  --border: rgba(245, 158, 11, 0.12);
+  --border-strong: rgba(245, 158, 11, 0.28);
+
+  --font-display: "Syne", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  line-height: 1.15;
+  color: var(--text-primary);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-base); }
+::-webkit-scrollbar-thumb { background: var(--amber-dim); border-radius: 3px; }
+
+/* Glow utility */
+.amber-glow {
+  text-shadow: 0 0 40px rgba(245, 158, 11, 0.4);
+}
+
+/* Skeleton animation */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--bg-card) 25%, var(--bg-card-hover) 50%, var(--bg-card) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 6px;
+}
+
+/* Waveform animation */
+@keyframes wave {
+  0%, 100% { transform: scaleY(0.3); }
+  50% { transform: scaleY(1); }
+}
+
+.wave-bar {
+  display: inline-block;
+  width: 3px;
+  border-radius: 2px;
+  background: var(--amber);
+  animation: wave 1.2s ease-in-out infinite;
+}
+
+/* Focus visible */
+:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 3px;
+}
